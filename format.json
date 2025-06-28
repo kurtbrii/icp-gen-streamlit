@@ -1,0 +1,60 @@
+{
+  "icp": {
+    "category": "",
+    "age": "",
+    "income": "",
+    "core_traits": "",
+    "primary_pain_points": "",
+    "how_product_solves": "",
+    "primary_message": "",
+    "research_habits": "",
+    "purchase_behavior": "",
+    "main_alternatives": "",
+    "marketing_channels": "",
+    "supporting_quote": "",
+    "value_props_vs_competition": "",
+    "price_sensitivity": "",
+    "key_motivators": "",
+    "key_fears": "",
+    "content_preferences": ""
+  },
+  "icp_overview": {
+    "category": "",
+    "goal_expression": "",
+    "ad_copy_that_works": "",
+    "about_their_life": "",
+    "about_their_routine": "",
+    "about_their_feelings": "",
+    "product_expectations": "",
+    "pain_point_expression": "",
+    "trust_signals_they_use": "",
+    "common_objections": "",
+    "review_style": "",
+    "social_proof_they_value": "",
+    "common_questions": "",
+    "words_that_resonate": "",
+    "words_they_avoid": "",
+    "purchase_triggers": ""
+  },
+  "ad_concepts": {
+    "category": "",
+    "tof_advertorial_concept_1": "",
+    "tof_advertorial_concept_2": "",
+    "mof_listicle_concept_1": "",
+    "mof_listicle_concept_2": "",
+    "bof_pdp_concept_1": "",
+    "bof_pdp_concept_2": ""
+  },
+  "icp_angles": {
+    "category": "",
+    "primary_usps": "",
+    "secondary_usps": "",
+    "primary_uvps": "",
+    "trust_builders": "",
+    "main_objections": "",
+    "website_counters_to_objections": "",
+    "key_website_benefits": "",
+    "pain_points_addressed": "",
+    "recommended_additions": ""
+  }
+}
