@@ -8,17 +8,19 @@ from helpers.utils import get_prompt
 load_dotenv(override=True)
 
 OPEN_AI_API_KEY = os.getenv("OPEN_AI_API_KEY", "")
+GOOGLE_SHEET_KEY = os.getenv("GOOGLE_SHEET_KEY", "")
 
+# ? not needed anymore
 PATTERN = f"""
     {get_prompt()}
-    {json.dumps(get_prompt("format.json"), indent=2)}
+    {json.dumps(get_prompt("format.json"), indent=2, ensure_ascii=False)}
 
     Now that you have the product information, you need to fill ALL fields.
     There shouldn't be any empty fields.
 
     For the ad concepts, you need to fill in the following for each field:
 
-    tof_advertorial_concept_1: 
+    tof_advertorial_concept_1:
         concept: <concept>
         hook: <hook>
         headline: <headline>
@@ -27,9 +29,10 @@ PATTERN = f"""
         concept: <concept>
         hook: <hook>
         headline: <headline>
+    
+    and so on.
+    
+    Please ensure all JSON is properly formatted.
 
-
-    and so on. concept, hook, headline are strings separated by a new line, not json objects.
-
-    return the response in json format and formatted on the screen
+    Return the response in valid JSON format only, no additional text.
     """
