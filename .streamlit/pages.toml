@@ -1,0 +1,10 @@
+[[pages]]
+path = "pages/sheets_automation.py"
+name = "Sheets Automation"
+icon = "💾"
+
+[[pages]]
+path = "pages/image_generator.py"
+name = "Image Generator"
+icon = "🖼️"
+

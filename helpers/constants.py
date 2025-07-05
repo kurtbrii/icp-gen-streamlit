@@ -2,13 +2,16 @@ import os
 import json
 
 from dotenv import load_dotenv
+import streamlit as st
 
 from helpers.utils import get_prompt
 
 load_dotenv(override=True)
 
-OPEN_AI_API_KEY = os.getenv("OPEN_AI_API_KEY", "")
-GOOGLE_SHEET_KEY = os.getenv("GOOGLE_SHEET_KEY", "")
+OPEN_AI_API_KEY = st.secrets["openai_api_key"]
+GOOGLE_SHEET_KEY = st.secrets["sheets_key"]
+# OPEN_AI_API_KEY = os.getenv("OPEN_AI_API_KEY", "")
+# GOOGLE_SHEET_KEY = os.getenv("GOOGLE_SHEET_KEY", "")
 
 # ? not needed anymore
 PATTERN = f"""
